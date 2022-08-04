@@ -1,0 +1,43 @@
+/* CONTACT FORM */
+#contact{
+    background-color: var(--primary-light-color);
+}
+#contact .contact-content__parag h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
+#contact .contact-form .form-fields{
+    display: grid;
+    grid-template-areas: 
+        'name email'
+        'subject phone'
+        'message message'
+        'button button';
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+#contact .contact-form .form-fields .name { grid-area: name;}
+#contact .contact-form .form-fields .email { grid-area: email;}
+#contact .contact-form .form-fields .subject { grid-area: subject;}
+#contact .contact-form .form-fields .phone { grid-area: phone;}
+#contact .contact-form .form-fields .message { grid-area: message; height: 20vh;}
+#contact .contact-form .form-fields button { grid-area: button;}
+#contact .contact-form .form-fields .input{
+    padding: 1rem .5rem;
+}
+#contact .contact-form .form-fields .input:target{
+    color: var(--primary-dark-color);
+}
+/* CONTACT INFO */
+#contact-info{
+    background-color: var(--primary-color);
+}
+#contact-info .info{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    color: var(--dark-color);
+}

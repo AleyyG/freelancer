@@ -1,0 +1,176 @@
+/* HEADER HOME */
+#header__home{
+    background: url(../img/bg.jpg) no-repeat center right/cover;
+    height: 100vh;
+    color: #fff;
+}
+#header__home .main-nav{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#header__home .main-nav .main-nav__logo{
+    width: 70px;
+    height: 70px;
+}
+#header__home .main-nav .main-nav__items{
+    display: flex;
+}
+#header__home .main-nav .main-nav__items li{
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+#header__home .main-nav .main-nav__items li a{
+    color: #fff;
+    padding-bottom: .5rem;
+}
+#header__home .main-nav .main-nav__items li a.active{
+    border-bottom: 3px solid var(--secondary-color);
+}
+#header__home .header-content{
+    text-align: center;
+    padding-top: 20%;
+}
+#header__home .header-content h1{
+    color: var(--secondary-color);
+    font-size: 4rem;
+    line-height: 1.2;
+}
+#header__home .header-content .typewrite{
+    display: block;
+}
+
+/* HEADER ABOUT */
+#header__about{
+    background-color: var(--primary-light-color);
+    color: var(--primary-dark-color);
+    padding-bottom: 4rem !important;
+}
+#header__about .header-nav{
+    background-color: var(--primary-dark-color);
+  /*  border-bottom: 2px solid white; */
+}
+#header__about .main-nav{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#header__about .main-nav .main-nav__logo{
+    width: 70px;
+    height: 70px;
+}
+#header__about .main-nav .main-nav__items{
+    display: flex;
+}
+#header__about .main-nav .main-nav__items li{
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+#header__about .main-nav .main-nav__items li a{
+    color: #fff;
+    padding-bottom: .5rem;
+}
+#header__about .main-nav .main-nav__items li a.active{
+    border-bottom: 3px solid var(--secondary-color);
+}
+#header__about .header-content{
+    display: flex;
+    flex-direction: column;
+}
+#header__about .header-content__parag{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+#header__about .header-content__parag h1{
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
+#header__about .header-content__img{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+#header__about .header-content__img img{
+   height: 100%;
+}
+#header__about .header-content__img div {
+    text-align: center;
+    padding: 0 2rem;
+}
+#header__about .header-content__img div h3{
+    color: var(--primary-dark-color);
+    font-weight: 700;
+}
+
+/* HEADER PROJECTS */
+#header__projects{
+    background-color: var(--primary-dark-color);
+    color: var(--primary-light-color);
+}
+#header__projects .header-nav{
+    background-color: var(--primary-dark-color);
+  /*  border-bottom: 2px solid white; */
+}
+#header__projects .main-nav{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#header__projects .main-nav .main-nav__logo{
+    width: 70px;
+    height: 70px;
+}
+#header__projects .main-nav .main-nav__items{
+    display: flex;
+}
+#header__projects .main-nav .main-nav__items li{
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+#header__projects .main-nav .main-nav__items li a{
+    color: #fff;
+    padding-bottom: .5rem;
+}
+#header__projects .main-nav .main-nav__items li a.active{
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+/* HEADER CONTACT */
+#header__contact{
+    background-color: var(--primary-dark-color);
+    color: var(--primary-light-color);
+}
+#header__contact.header-nav{
+    background-color: var(--primary-dark-color);
+  /*  border-bottom: 2px solid white; */
+}
+#header__contact .main-nav{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#header__contact .main-nav .main-nav__logo{
+    width: 70px;
+    height: 70px;
+}
+#header__contact .main-nav .main-nav__items{
+    display: flex;
+}
+#header__contact .main-nav .main-nav__items li{
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+#header__contact .main-nav .main-nav__items li a{
+    color: #fff;
+    padding-bottom: .5rem;
+}
+#header__contact .main-nav .main-nav__items li a.active{
+    border-bottom: 3px solid var(--secondary-color);
+}

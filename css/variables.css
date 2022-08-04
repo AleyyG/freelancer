@@ -1,0 +1,13 @@
+
+:root{
+
+    --primary-color: #7d9d9c;
+    --primary-dark-color: #395B64;
+    --primary-light-color: #E7F6F2;
+    --secondary-color: #AD8B73;
+    --secondary-dark-color: #876445;
+    --secondary-light-color: #E3CAA5;
+    --dark-color: #2C3333;
+    --light-color: #F0EBE3;
+    --max-width: 1200px;
+}

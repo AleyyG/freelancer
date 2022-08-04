@@ -1,0 +1,41 @@
+@import url("variables.css");
+@import url("utilities.css");
+@import url("header.css");
+@import url("home.css");
+@import url("about.css");
+@import url("projects.css");
+@import url("contact.css");
+@import url("footer.css");
+@import url("mobile.css");
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Prompt', sans-serif;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: 1.5rem;
+}
+h1{font-size: 2rem;
+letter-spacing: .2rem;}
+h2{font-size: 1.85rem;}
+h3{font-size: 1.7rem;}
+
